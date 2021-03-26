@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31357" started-at="2021-03-24T17:32:09 EDT" finished-at="2021-03-24T17:32:40 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31357" started-at="2021-03-24T17:32:09 EDT" finished-at="2021-03-24T17:32:40 EDT">
+      <class name="com.skillrary.skillkart.scripts.TC3">
+        <test-method status="PASS" signature="launchApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.skillrary.skillkart.scripts.TC3@56aac163]" name="launchApp" is-config="true" duration-ms="13464" started-at="2021-03-24T17:32:09 EDT" finished-at="2021-03-24T17:32:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php?controller=authentication&back=my-account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:com.skillrary.skillkart.scripts.TC3@56aac163]" name="loginToApp" is-config="true" duration-ms="2740" started-at="2021-03-24T17:32:22 EDT" finished-at="2021-03-24T17:32:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testCancelAddToKart()[pri:0, instance:com.skillrary.skillkart.scripts.TC3@56aac163]" name="testCancelAddToKart" duration-ms="14387" started-at="2021-03-24T17:32:25 EDT" finished-at="2021-03-24T17:32:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelAddToKart -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.skillrary.skillkart.scripts.TC3@56aac163]" name="closeApp" is-config="true" duration-ms="701" started-at="2021-03-24T17:32:40 EDT" finished-at="2021-03-24T17:32:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.skillrary.skillkart.scripts.TC3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
